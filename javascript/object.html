@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Object</title>
+
+    <script>
+        var me = {
+            firstName: '엘런',
+            lastName: '머스크',
+            toString: function () {
+                return this.firstName + ' ' + this.lastName;
+            }
+        };
+
+        var me2 = {};
+        me2.firstName = '스티브';
+        me2['lastName'] = '잡스';
+        me2.toString = me.toString;
+
+        function person(first, last) {
+            this.firstName = first;
+            this.lastName = last;
+            this.toString = me.toString;
+        }
+
+        var me3 = new person("빌", "게이츠");
+        var me4 = new person("마크", "저커버그");
+
+        var me_array = [me, me2, me3, me4];
+
+        for (var i = 0; i < me_array.length; i++) {
+            console.log(me_array[i].toString());
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
