@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2016년 1학기 웹프로그래밍 중간시험</title>
+    <script>
+        function sum(list) {
+            var total = list[0];
+            for (var i = 1; i < list.length; i++) {
+                total += list[i];
+            }
+            return total;
+        }
+        function fullname(p) {
+            return p.firstName + ' ' + p.middleName + ' ' + p.lastName;
+        }
+    </script>
+    <style>
+        .box {
+            display: none;
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+<div class="question">
+    <h2>1. 아래에서 "한성대학교"와 "아래로" 라는 글자를 누르면 어떻게 되는지 설명하고, "IT응용시스템공학과" 라는 글자를 누르면 http://www.hansung.ac.kr/web/ait 페이지로 연결되도록 코드를 수정하시오.(10점)</h2>
+    <p><a href="http://www.hansung.ac.kr">한성대학교</a></p>
+    <p>IT응용시스템공학과</p>
+    <p><a href="#bottom">아래로</a></p>
+</div>
+
+<div class="question">
+    <h2>2. 아래 자바스크립트에서 console.log의 출력 결과는?(15점)</h2>
+    <script>
+        var result = sum([1, 2, 3, 4, 5]);
+        var result2 = sum(['1', '2', '3', '4', '5']);
+        console.log('result=' + result);
+        console.log('result2=' + result2);
+    </script>
+</div>
+
+<div class="question">
+    <h2>3. 다음 HTML코드가 웹브라우져에서 어떻게 나타나는지 쓰시오. CSS는 무시할 것.(10점)</h2>
+    <ul><li>사과</li><li>바나나</li><li id="watermelon">수박
+        <ol><li>줄무늬</li><li>검은씨</li></ol></li></ul>
+</div>
+
+<div class="question">
+    <h2>4. 다음 테이블을 나타내기 위한 HTML코드를 작성하시오. 연도와 성적은 테이블 헤더임 (20점)</h2>
+    <!-- 테이블 이미지 -->
+</div>
+
+<div class="question">
+    <h2>5. 다음 CSS 코드가 문제지 전체 HTML코드에 어떻게 영향을 주는지 쓰시오. (20점)</h2>
+    <style>
+        #watermelon:hover {
+            color: red;
+        }
+        .question:nth-child(2n) h2 {
+            color: blue;
+        }
+    </style>
+</div>
+
+<div class="question">
+    <h2>6. 콘솔 출력으로 John Ronald Reuel Tolkien이 나오도록 빈칸의 코드를 채우시오. (10점)</h2>
+    <script>
+        var p = {firstName:"John", lastName:"Tolkien"};
+        // [ 빈 칸 ]
+        console.log(fullname(p));
+    </script>
+</div>
+
+<div class="question">
+    <h2>7. 아래 p태그 안의 내용이 웹브라우져에 나타나지 않는다. 적절한 CSS를 찾아 수정하여 "가운데 정렬"로 표시되도록 하시오.(15점)</h2>
+    <p class="box">IT응용시스템공학과는 IT 전문기업 및 창업기업에 적합한 실무능력과 창의력을 겸비한 유연하고 융합적인 사고를 지닌 인재 양성을 교육 목표로 한다.</p>
+</div>
+
+<div class="question">
+    <h2 id="bottom">마지막</h2>
+    <p>수고했습니다.</p>
+</div>
+
+</body>
+</html>
