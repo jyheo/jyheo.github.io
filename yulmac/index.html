@@ -1,0 +1,670 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Bootstrap Theme Company Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 400 15px Lato, sans-serif;
+            line-height: 1.8;
+            color: #818181;
+        }
+        h2 {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #303030;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        h4 {
+            font-size: 19px;
+            line-height: 1.375em;
+            color: #303030;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+
+        .container-fluid {
+            padding: 60px 50px;
+        }
+        .bg-grey {
+            background-color: #f6f6f6;
+        }
+        .bg-1 {
+            background: #2d2d30;
+            color: #bdbdbd;
+        }
+        .bg-1 h2, h3 {color: #fff;}
+        .bg-1 p {font-style: normal;}
+        .logo-small {
+            color: #270d05;
+            font-size: 50px;
+        }
+        .logo {
+            color: #270d05;
+            font-size: 200px;
+        }
+        .thumbnail {
+            padding: 0 0 15px 0;
+            border: none;
+            border-radius: 0;
+        }
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 10px;
+        }
+        .carousel-control.right, .carousel-control.left {
+            background-image: none;
+            color: #270d05;
+        }
+        .carousel-indicators li {
+            border-color: #270d05;
+        }
+        .carousel-indicators li.active {
+            background-color: #270d05;
+        }
+        .item h4 {
+            font-size: 19px;
+            line-height: 1.375em;
+            font-weight: 400;
+            font-style: italic;
+            margin: 70px 0;
+        }
+        .item span {
+            font-style: normal;
+        }
+        .panel {
+            border: 1px solid #270d05;
+            border-radius:0 !important;
+            transition: box-shadow 0.5s;
+        }
+        .panel:hover {
+            box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+        }
+        .panel-footer .btn:hover {
+            border: 1px solid #270d05;
+            background-color: #fff !important;
+            color: #270d05;
+        }
+        .panel-heading {
+            color: #fff !important;
+            background-color: #270d05 !important;
+            padding: 25px;
+            border-bottom: 1px solid transparent;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        .panel-footer {
+            background-color: white !important;
+        }
+        .panel-footer h3 {
+            font-size: 32px;
+        }
+        .panel-footer h4 {
+            color: #aaa;
+            font-size: 14px;
+        }
+        .panel-footer .btn {
+            margin: 15px 0;
+            background-color: #270d05;
+            color: #fff;
+        }
+        .navbar {
+            margin-bottom: 0;
+            background-color: #270d05;
+            z-index: 9999;
+            border: 0;
+            font-size: 18px !important;
+            line-height: 1.42857143 !important;
+            letter-spacing: 2px;
+            border-radius: 0;
+            font-family: Montserrat, sans-serif;
+        }
+        .modal {
+            z-index: 10000;
+        }
+        .navbar li a, .navbar .navbar-brand {
+            color: #fff !important;
+        }
+        .navbar-nav li a:hover, .navbar-nav li.active a {
+            color: #270d05 !important;
+            background-color: #fff !important;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: #fff !important;
+        }
+        footer .glyphicon {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #270d05;
+        }
+        .slideanim {visibility:hidden;}
+        .slide {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            visibility: visible;
+        }
+        @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+            }
+            .btn-lg {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .logo {
+                font-size: 150px;
+            }
+        }
+
+
+        .carousel-inner img {
+            -webkit-filter: grayscale(90%);
+            filter: grayscale(90%); /* make all photos black and white */
+            width: 100%; /* Set width to 100% */
+            margin: auto;
+        }
+        .carousel-caption h3 {
+            color: #fff !important;
+        }
+        @media (max-width: 600px) {
+            .carousel-caption {
+                display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+            }
+        }
+        .person {
+            border: 5px solid transparent;
+            opacity: 0.7;
+            -webkit-filter: grayscale(40%);
+            filter: grayscale(40%); /* make all photos black and white */
+        }
+        .person:hover {
+            border-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#myPage">율맥</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#member">구성원</a></li>
+                <li><a href="#services">업무분야</a></li>
+                <li><a href="#portfolio">소송사례</a></li>
+                <li><a href="#contact">오시는길</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="books.jpg" alt="New York" width="1200" height="700">
+            <div class="carousel-caption">
+                <h3>법무법인 율맥</h3>
+                <p>법무법인 율맥은 법원과 검찰 등 다양한 직역에서 10년 이상의 경험을 쌓은 전문가들로 구성 되어 있으며
+                    전문화된 지식과 각 분야의 경험을 바탕으로 최상의 법률서비스를 제공하고 있습니다.<br/>
+                    ​
+                    법무법인 율맥은 구성원 변호사와 직원 모두가 신뢰와 성실을 최우선의 가치로 삼고 복잡하고 어려운 법률
+                    문제를 신속하고 정확하게 해결하기 위하여 최선의 노력을 다하고 있습니다.<br/>
+                    ​
+                    ​법무법인 율맥은 언제든지 함께 고민할 준비가 되어 있습니다.<br/>
+                    법무법인 율맥과 함께 최상의 법률서비스를 느껴보시기 바랍니다. ​<br/>
+                    [출처] 법무법인 율맥 인사말|작성자 법무법인 율맥</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="balance.jpg" alt="Chicago" width="1200" height="700">
+            <div class="carousel-caption">
+                <h3>법무법인 율맥</h3>
+                <p>법무법인 율맥은 법원과 검찰 등 다양한 직역에서 10년 이상의 경험을 쌓은 전문가들로 구성 되어 있으며
+                    전문화된 지식과 각 분야의 경험을 바탕으로 최상의 법률서비스를 제공하고 있습니다.<br/>
+                    ​
+                    법무법인 율맥은 구성원 변호사와 직원 모두가 신뢰와 성실을 최우선의 가치로 삼고 복잡하고 어려운 법률
+                    문제를 신속하고 정확하게 해결하기 위하여 최선의 노력을 다하고 있습니다.<br/>
+                    ​
+                    ​법무법인 율맥은 언제든지 함께 고민할 준비가 되어 있습니다.<br/>
+                    법무법인 율맥과 함께 최상의 법률서비스를 느껴보시기 바랍니다. ​<br/>
+                    [출처] 법무법인 율맥 인사말|작성자 법무법인 율맥</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-8">
+            <h2>법무법인 율맥</h2><br>
+
+            <h4>법무법인 율맥은 법원과 검찰 등 다양한 직역에서 10년 이상의 경험을 쌓은 전문가들로 구성 되어 있으며
+                전문화된 지식과 각 분야의 경험을 바탕으로 최상의 법률서비스를 제공하고 있습니다.</h4>>
+                ​
+              <p>법무법인 율맥은 구성원 변호사와 직원 모두가 신뢰와 성실을 최우선의 가치로 삼고 복잡하고 어려운 법률
+                문제를 신속하고 정확하게 해결하기 위하여 최선의 노력을 다하고 있습니다.<br/>
+                ​
+                ​법무법인 율맥은 언제든지 함께 고민할 준비가 되어 있습니다.<br/>
+                법무법인 율맥과 함께 최상의 법률서비스를 느껴보시기 바랍니다. ​<br/>
+                [출처] 법무법인 율맥 인사말|작성자 법무법인 율맥</p>
+        </div>
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-globe logo slideanim"></span>
+        </div>
+    </div>
+</div>
+
+<div id="member" class="container-fluid text-center bg-1">
+    <div class="text-center">
+        <h2>구성원</h2>
+        <h4><em>법무법인 율맥은 법원과 검찰 등 다양한 직역에서 10년 이상의 경험을 쌓은 전문가들로 구성 되어 있습니다.</em></h4>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="#demo" data-toggle="collapse">
+                <img src="member1.jpg" class="img-circle person" alt="Random Name" width="200" height="255"><br/>
+            </a>
+            <p class="text-center"><strong>홍길동</strong></p>
+            <div id="demo" class="collapse">
+                <p>전문분야: 가사/상속, 건설</p>
+                <p>사법연수원 20기</p>
+                <p>서울지방법원 부장판사</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="#demo2" data-toggle="collapse">
+                <img src="member2.jpg" class="img-circle person" alt="Random Name" width="200" height="255"><br/>
+            </a>
+            <p class="text-center"><strong>강소라</strong></p>
+            <div id="demo2" class="collapse">
+                <p>전문분야: 형사</p>
+                <p>사법연수원 34기</p>
+                <p>법률구조공단 변호사</p>
+                <p>부산지방검찰청 검사</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="#demo3" data-toggle="collapse">
+                <img src="member1.jpg" class="img-circle person" alt="Random Name" width="200" height="255"><br/>
+            </a>
+            <p class="text-center"><strong>김변호</strong></p>
+            <div id="demo3" class="collapse">
+                <p>전문분야: 가사/상속</p>
+            </div>
+        </div>
+    </div>
+
+    <p></p>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <a href="#demo4" data-toggle="collapse">
+                <img src="member1.jpg" class="img-circle person" alt="Random Name" width="200" height="255"><br/>
+            </a>
+            <p class="text-center"><strong>강변호</strong></p>
+            <div id="demo4" class="collapse">
+                <p>전문분야: 가사/상속</p>
+
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <a href="#demo5" data-toggle="collapse">
+                <img src="member2.jpg" class="img-circle person" alt="Random Name" width="200" height="255"><br/>
+            </a>
+            <p class="text-center"><strong>허준영</strong></p>
+            <div id="demo5" class="collapse">
+                <p>전문분야: 가사/상속</p>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">가사/상속</h4>
+            </div>
+            <div class="modal-body">
+                <p> 다년간 가사, 상속사건의 실무분쟁이라는 점에서 그 예방이 더욱 중요하므로, 저희 가사/상속팀은 상속분쟁 예방 및 절세, 고령화 시대에 발맞춘 노년의 안정적인 생활 등을 위한 상속계획을 제안해드리고 있으며, 특히 기업인들의 상속문제와 관련하여서는 법무법인(유한) 로고스 내 가사상속센터를 통하여 기업승계, 가업승계 분야에 관한 보다 효율적인 원스톱 서비스를 제공하고 있습니다. </p>
+                </p>
+                <p>주요 업무 및 활동<br/>
+                    - 협의이혼 관련 지원<br/>
+                    - 이혼, 재산분할, 양육 분쟁 자문 및 소송 수행<br/>
+                    - 인지, 친생자관계, 입양 등 문제<br/>
+                    - 성년후견제도<br/>
+                    - 성과 본 변경, 개명 등 각종 가족관계등록(舊 호적문제) 문제<br/>
+                    - 상속재산분할 협의 지원<br/>
+                    - 상속관련 분쟁 자문 및 소송 수행<br/>
+                    - 유언대용신탁 자문<br/>
+                    - 국제가족관계분쟁(이혼, 상속 등) 자문 및 소송 수행</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="services" class="container-fluid">
+    <div class="text-center">
+        <h2>전문 분야</h2>
+        <h4>법무법인 율맥은 특히 아래 분야에 경험이 많은 전문가들로 구성되어 있습니다.</h4>
+    </div>
+    <div class="row slideanim">
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>가사/상속</h3>
+                </div>
+                <div class="panel-body">
+                    다년간 가사, 상속사건의 실무분쟁이라는 점에서 그 예방이 더욱 중요하므로, 저희 가사/상속팀은 상속분쟁 예방 및 절세, 고령화 시대에 발맞춘 노년의 안정적인 생활 등을 위한 상속계획을 제안해드리고 있으며, 특히 기업인들의 상속문제와 관련하여서는 법무법인(유한) 로고스 내 가사상속센터를 통하여 기업승계, 가업승계 분야에 관한 보다 효율적인 원스톱 서비스를 제공하고 있습니다. </p>
+
+                </div>
+                <div class="panel-footer">
+                    <p>주요 업무 및 활동<br/>
+                        - 협의이혼 관련 지원<br/>
+                        - 이혼, 재산분할, 양육 분쟁 자문 및 소송 수행<br/>
+                        - 인지, 친생자관계, 입양 등 문제<br/>
+                        - 유언대용신탁 자문<br/>
+                        - 국제가족관계분쟁(이혼, 상속 등) 자문 및 소송 수행</p>
+                    <button class="btn btn-lg" data-toggle="modal" data-target="#myModal">자세히...</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>건설/부동산</h3>
+                </div>
+                <div class="panel-body">
+                    다년간 가사, 상속사건의 실무경험을 폭넓그 예방이 더욱 중요하므로, 저희 가사/상속팀은 상속분쟁 예방 및 절세, 고령화 시대에 발맞춘 노년의 안정적인 생활 등을 위한 상속계획을 제안해드리고 있으며, 특히 기업인들의 상속문제와 관련하여서는 법무법인(유한) 로고스 내 가사상속센터를 통하여 기업승계, 가업승계 분야에 관한 보다 효율적인 원스톱 서비스를 제공하고 있습니다. </p>
+
+                </div>
+                <div class="panel-footer">
+                    <p>주요 업무 및 활동<br/>
+                        - 협의이혼 관련 지원<br/>
+                        - 이혼, 재산분할, 양육 분쟁 자문 및 소송 수행<br/>
+                        - 인지, 친생자관계, 입양 등 문제<br/>
+                        - 성년후견제도<br/>
+                        - 성과 본 변경, 개명 등 각종 가족관계등록(舊 호적문제) 문제<br/>
+                        - 상속재산분할 협의 지원<br/>
+                        - 상속관련 분쟁 자문 및 소송 수행<br/>
+                        - 유언대용신탁 자문<br/>
+                        - 국제가족관계분쟁(이혼, 상속 등) 자문 및 소송 수행</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>지적재산권</h3>
+                </div>
+                <div class="panel-body">
+                    다년간 가사, 상속사건의 실무경험을 폭넓게 쌓은 변호사 등을 주축으로 하여 이혼 및 재산분할, 상속재산분할, 유류분반환 등 가족 간 분쟁의 해결에 도움을 드리고 있습니다.
+
+                    이혼, 재산분할, 인지, 에 발맞춘 노년의 안정적인 생활 등을 위한 상속계획을 제안해드리고 있으며, 특히 기업인들의 상속문제와 관련하여서는 법무법인(유한) 로고스 내 가사상속센터를 통하여 기업승계, 가업승계 분야에 관한 보다 효율적인 원스톱 서비스를 제공하고 있습니다. </p>
+
+                </div>
+                <div class="panel-footer">
+                    <p>주요 업무 및 활동<br/>
+                        - 협의이혼 관련 지원<br/>
+                        - 이혼, 재산분할, 양육 분쟁 자문 및 소송 수행<br/>
+                        - 인지, 친생자관계, 입양 등 문제<br/>
+                        - 성년후견제도<br/>
+                        - 성과 본 변경, 개명 등 각종 가족관계등록(舊 호적문제) 문제<br/>
+                        - 상속재산분할 협의 지원<br/>
+                        - 상속관련 분쟁 자문 및 소송 수행<br/>
+                        - 유언대용신탁 자문<br/>
+                        - 국제가족관계분쟁(이혼, 상속 등) 자문 및 소송 수행</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row slideanim">
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>가사/상속</h3>
+                </div>
+                <div class="panel-body">
+                    하고, 소송에 이르러서도 고객의 이익을 위하여 가장 적합한 도움을 드립니다.
+
+                    또한 상속분쟁은 가족 사이의 분쟁이라는 점에서 그 예방이 더욱 중요하므로, 저희 가사/상속팀은 상속분쟁 예방 및 절세, 고령화 시대에 발맞춘 노년의 안정적인 생활 등을 위한 상속계획을 제안해드리고 있으며, 특히 기업인들의 상속문제와 관련하여서는 법무법인(유한) 로고스 내 가사상속센터를 통하여 기업승계, 가업승계 분야에 관한 보다 효율적인 원스톱 서비스를 제공하고 있습니다. </p>
+
+                </div>
+                <div class="panel-footer">
+                    <p>주요 업무 및 활동<br/>
+                        - 협의이혼 관련 지원<br/>
+                        - 이혼, 재산분할, 양육 분쟁 자문 및 소송 수행<br/>
+                        - 인지, 친생자관계, 입양 등 문제<br/>
+                        - 성년후견제도<br/>
+                        - 성과 본 변경, 개명 등 각종 가족관계등록(舊 호적문제) 문제<br/>
+                        - 상속재산분할 협의 지원<br/>
+                        - 상속관련 분쟁 자문 및 소송 수행<br/>
+                        - 유언대용신탁 자문<br/>
+                        - 국제가족관계분쟁(이혼, 상속 등) 자문 및 소송 수행</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h3>건설/부동산</h3>
+                </div>
+                <div class="panel-body">
+                    다년간 가사, 상속사건의 실무경험을 폭넓게 쌓은 변호사 등을 주축으로 하여 이혼 및 재산분할, 상속재산분할, 유류분반환 등 가족 간 분쟁의 해결에 도움을 드리고 있습니다.
+
+                     </p>
+
+                </div>
+                <div class="panel-footer">
+                    <p>주요 업무 및 활동<br/>
+                        - 협의이혼 관련 지원<br/>
+                        - 이혼, 재산분할, 양육 분쟁 자문 및 소송 수행<br/>
+                        - 인지, 친생자관계, 입양 등 문제<br/>
+                        - 성년후견제도<br/>
+                        - 성과 본 변경, 개명 등 각종 가족관계등록(舊 호적문제) 문제<br/>
+                        - 상속재산분할 협의 지원<br/>
+                        - 상속관련 분쟁 자문 및 소송 수행<br/>
+                        - 유언대용신탁 자문<br/>
+                        - 국제가족관계분쟁(이혼, 상속 등) 자문 및 소송 수행</p>
+                    <button class="btn btn-lg">자세히...</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-1">
+    <h2>소송 사례</h2><br>
+    <h4>법무법인 율맥에서 진행한 소송 사례입니다. </h4>
+    <div class="row text-center slideanim">
+
+        <div class="col-sm-6">
+
+        <p><strong>토지 분쟁</strong></p>
+    <p>시효취득으로 인한 소유권이전등기청구는 적법한 소유자를 상대로만 구할 수 있는 것이 원칙이나,
+        적법한 소유자로 추정되는 사정명의인의 인적사항, 상속인의 존부,
+        나아가 허무인인지 여부 등을 알 수 없는 경우에는 예외적으로 무효인 보존등기명의인을 상대로 한 소유권이전등기청구를 허용하여야 한다고 판단한 사례</p>
+            <p>시효취득으로 인한 소유권이전등기청구는 적법한 소유자를 상대로만 구할 수 있는 것이 원칙이나,
+                적법한 소유자로 추정되는 사정명의인의 인적사항, 상속인의 존부,
+                나아가 허무인인지 여부 등을 알 수 없는 경우에는 예외적으로 무효인 보존등기명의인을 상대로 한 소유권이전등기청구를 허용하여야 한다고 판단한 사례</p>
+    <p>수원지방 법원 <a href="">2008나20123</a></p>
+        </div>
+
+        <div class="col-sm-6">
+
+            <p><strong>토지 분쟁</strong></p>
+            <p>시효취득으로 인한 소유권이전등기청구는 적법한 소유자를 상대로만 구할 수 있는 것이 원칙이나,
+                적법한 소유자로 추정되는 사정명의인의 인적사항, 상속인의 존부,
+                나아가 허무인인지 여부 등을 알 수 없는 경우에는 예외적으로 무효인 보존등기명의인을 상대로 한 소유권이전등기청구를 허용하여야 한다고 판단한 사례</p>
+            <p>수원지방 법원 <a href="">2008나20123</a></p>
+        </div>
+    </div>
+
+    <div class="row text-center slideanim">
+
+        <div class="col-sm-6">
+
+                <p><strong>토지 분쟁</strong></p>
+                <p>시효취득으로 인한 소유권이전등기청구는 적법한 소유자를 상대로만 구할 수 있는 것이 원칙이나,
+                    적법한 소유자로 추정되는 사정명의인의 인적사항, 상속인의 존부,
+                    나아가 허무인인지 여부 등을 알 수 없는 경우에는 예외적으로 무효인 보존등기명의인을 상대로 한 소유권이전등기청구를 허용하여야 한다고 판단한 사례</p>
+                <p>수원지방 법원 <a href="">2008나20123</a></p>
+        </div>
+
+        <div class="col-sm-6">
+
+                <p><strong>토지 분쟁</strong></p>
+                <p>시효취득으로 인한 소유권이전등기청구는 적법한 소유자를 상대로만 구할 수 있는 것이 원칙이나,
+                    적법한 소유자로 추정되는 사정명의인의 인적사항, 상속인의 존부,
+                    나아가 허무인인지 여부 등을 알 수 없는 경우에는 예외적으로 무효인 보존등기명의인을 상대로 한 소유권이전등기청구를 허용하여야 한다고 판단한 사례</p>
+                <p>수원지방 법원 <a href="">2008나20123</a></p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid">
+    <h2 class="text-center">오시는 길</h2>
+    <div class="row">
+        <div class="col-sm-5">
+            <p>연락주시면 24시간 내에 응답을 드립니다!</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> 서울특별시 서초구 서초중앙로24길 11 요셉빌딩 4층</p>
+            <p><span class="glyphicon glyphicon-phone"></span> 02-596-6100</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> contact@yulmac.com</p>
+        </div>
+        <div class="col-sm-7 slideanim">
+            <table align="right" cellpadding="0" cellspacing="0" width="462"> <tr> <td style="border:1px solid #cecece;"><a href="http://map.naver.com/?searchCoord=e95d6b111e0485ea7146406fc682db70135d8b8c96793c3b8987e3b7bcf6fcdb&query=7Jyo66el&menu=location&tab=1&lng=598582b101660cd6c648659523236372&mapMode=0&mpx=09650581%3A37.4976118%2C127.0003336%3AZ11%3A0.0216547%2C0.0138254&lat=80f4c70ef3ca49022e34cd46ee537da3&dlevel=12&enc=b64" target="_blank"><img src="http://prt.map.naver.com/mashupmap/print?key=p1498792781143_639613129" width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a></td> </tr> <tr> <td> <table cellpadding="0" cellspacing="0" width="100%"> <tr> <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="font-family: tahoma; font-size: 11px; color:#666;">2017.6.30</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="http://map.naver.com/?searchCoord=e95d6b111e0485ea7146406fc682db70135d8b8c96793c3b8987e3b7bcf6fcdb&query=7Jyo66el&menu=location&tab=1&lng=598582b101660cd6c648659523236372&mapMode=0&mpx=09650581%3A37.4976118%2C127.0003336%3AZ11%3A0.0216547%2C0.0138254&lat=80f4c70ef3ca49022e34cd46ee537da3&dlevel=12&enc=b64" target="_blank">지도 크게 보기</a> </td> <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;"> <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="http://www.nhncorp.com" target="_blank">NAVER Corp.</a></span> </td> </tr> </table> </td> </tr> </table>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center bg-1">
+    <a href="#myPage" title="To Top">
+        <span style="color:#fff" class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>법무법인 율맥</p>
+</footer>
+
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        });
+
+        // Slide in elements on scroll
+        $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+
+    })
+</script>
+
+</body>
+</html>
