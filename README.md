@@ -35,7 +35,8 @@ E-mail : jyheo (at) hansung.ac.kr
     - <http://www.acornpub.co.kr/book/embedded-software>
 
 ## Research Papers
-[DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/h/Heo:Junyoung.html)
+* [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=Y8F-9OwAAAAJ&view_op=list_works&sortby=pubdate)
+* [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/h/Heo:Junyoung.html)
 
 
 # Services
