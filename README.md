@@ -1,9 +1,9 @@
 # About me
 
 * 허준영(Junyoung Heo) Ph.D., Professor
-* [intelligent System-Software Lab](isyslab.github.io)
-* [Division of Computer Engieering](cse.hansung.ac.kr)
-* [Hansung University](www.hansung.ac.kr), Seoul, Korea
+* [intelligent System-Software Lab](https://isyslab.github.io)
+* [Division of Computer Engieering](http://cse.hansung.ac.kr)
+* [Hansung University](http://www.hansung.ac.kr), Seoul, Korea
 
 
 ## Short Bio.
