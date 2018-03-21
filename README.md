@@ -24,7 +24,6 @@ Junyoung Heo received the B.E. and Ph.D. degrees in computer engineering from Se
 
 ## Other Interests
 * [Tennis](http://en.wikipedia.org/wiki/Tennis)
-* [Argentine](Tango (http://en.wikipedia.org/wiki/Argentine_tango)
 * [Alpine ski](http://en.wikipedia.org/wiki/Alpine_ski)
 
 ## Contact
@@ -33,7 +32,7 @@ E-mail : jyheo (at) hansung.ac.kr
 # Publication
 ## Translation
 * Korean version of "Embedded Software: The Works (2nd Ed.)" written by Colin Walls.
-    - http://www.acornpub.co.kr/book/embedded-software
+    - <http://www.acornpub.co.kr/book/embedded-software>
 
 ## Research Papers
 [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/h/Heo:Junyoung.html)
@@ -48,12 +47,12 @@ E-mail : jyheo (at) hansung.ac.kr
     - ![Logo](http://www.eswcontest.com/images/common/logo.png)
 
 ### Conference/Track Chair
-* Publicity Chair, 2018 ACM Symposium on Applied Computing (SAC 2018), https://www.sigapp.org/sac/sac2018/index.html
-* Publicity Chair, 2018 ACM Research in Adaptive and Convergent Systems (RACS 2018), https://sites.google.com/site/acmracs2018/
-* Publication Chair, 2013 Workshop on Dependable Computing System, https://sites.google.com/site/2013wdcs/
-* Publication Chair, Research in Applied Computation Symposium, Miami, USA, November 2011, http://oslab.ssu.ac.kr/CFP/RACS2011/
-* Track Co-Chair (Operating Systems), the 26th ACM Symposium on Applied Computing, Taichung, Taiwan, March 2011, http://www.acm.org/conferences/sac/sac2011/
-* Workshop Co-Chair, The 5th International Workshop on Convergence Technologies and Information Convergence (CTIC2010), Atlanta, USA, October 2010, http://sites.google.com/site/iwctic/
+* Publicity Chair, 2018 ACM Symposium on Applied Computing (SAC 2018), <https://www.sigapp.org/sac/sac2018/index.html>
+* Publicity Chair, 2018 ACM Research in Adaptive and Convergent Systems (RACS 2018), <https://sites.google.com/site/acmracs2018/>
+* Publication Chair, 2013 Workshop on Dependable Computing System, <https://sites.google.com/site/2013wdcs/>
+* Publication Chair, Research in Applied Computation Symposium, Miami, USA, November 2011, <http://oslab.ssu.ac.kr/CFP/RACS2011/>
+* Track Co-Chair (Operating Systems), the 26th ACM Symposium on Applied Computing, Taichung, Taiwan, March 2011, <http://www.acm.org/conferences/sac/sac2011/>
+* Workshop Co-Chair, The 5th International Workshop on Convergence Technologies and Information Convergence (CTIC2010), Atlanta, USA, October 2010, <http://sites.google.com/site/iwctic/>
 
 ### Journal Editor
 * Guest Editor, On Context-Aware Security in Cloud Computing and Internet of Things, Wireless Communications and Mobile Computing, 2018
@@ -69,6 +68,10 @@ E-mail : jyheo (at) hansung.ac.kr
 
 
 # Lecture
-## Lecgure blog
-<http://jylecture.blogspot.kr/>
+* Python(basic, class, numpy, matplotlib, pandas) - <https://jyheo.github.io/python-lecture/>
+* Git/Github - <https://jyheo.github.io/github-lecture/>
+* Android - <https://github.com/jyheo/android-lecture>
+* Raspberry Pi - <https://jyheo.github.io/raspberry_class/>
+* Probability&Statistics(in Korean) - <https://goo.gl/xQXxyg>
+* Lecture blog - <http://jylecture.blogspot.kr/>
 
