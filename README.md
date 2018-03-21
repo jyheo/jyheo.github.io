@@ -68,10 +68,10 @@ E-mail : jyheo (at) hansung.ac.kr
 
 
 # Lecture
-* Python(basic, class, numpy, matplotlib, pandas) - <https://jyheo.github.io/python-lecture/>
-* Git/Github - <https://jyheo.github.io/github-lecture/>
-* Android - <https://jyheo.github.io/android-lecture/>
-* Raspberry Pi - <https://jyheo.github.io/raspberry_class/>
+* Python(basic, class, numpy, matplotlib, pandas)(in English) - <https://jyheo.github.io/python-lecture/>
+* Git/Github(in Korean) - <https://jyheo.github.io/github-lecture/>
+* Android(in Korean) - <https://jyheo.github.io/android-lecture/>
+* Raspberry Pi(in Korean) - <https://jyheo.github.io/raspberry_class/>
 * Probability&Statistics(in Korean) - <https://goo.gl/xQXxyg>
-* Lecture blog - <http://jylecture.blogspot.kr/>
+* Lecture blog(in Korean) - <http://jylecture.blogspot.kr/>
 
