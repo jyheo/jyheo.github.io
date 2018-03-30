@@ -15,7 +15,7 @@ Junyoung Heo received the B.E. and Ph.D. degrees in computer engineering from Se
 
 
 ## Research Interests
-* Machine learning/Depp learning
+* Machine learning/Deep learning
 * Mobile Systems(Android)
 * Operating Systems
 * Embedded Systems
