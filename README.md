@@ -8,7 +8,7 @@
 
 ## Short Bio.
 
-Junyoung Heo received the B.E. and Ph.D. degrees in computer engineering from Seoul National University, Seoul, Korea, in 1998 and 2009 respectively. Since 2009, he has been with the Department of Computer Engineering, Hansung University, Seoul, where he is currently an Assistant Professor. 
+Junyoung Heo received the B.E. and Ph.D. degrees in computer engineering from Seoul National University, Seoul, Korea, in 1998 and 2009 respectively. Since 2009, he has been with the Department of Computer Engineering, Hansung University, Seoul, where he is currently an Associate Professor. 
 
 ## Github Repository
 <https://github.com/jyheo/>
@@ -17,9 +17,8 @@ Junyoung Heo received the B.E. and Ph.D. degrees in computer engineering from Se
 ## Research Interests
 * Machine learning/Deep learning
 * Mobile Systems(Android)
-* Operating Systems
-* Embedded Systems
-* Fault Tolerant Computing
+* System Software(Operating Systems, Embedded Systems)
+* Security and Dependable Computing
 * Wireless Sensor Networks - Energy Aware Routing, Security, Under-water
 
 ## Other Interests
