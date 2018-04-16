@@ -63,8 +63,12 @@ E-mail : jyheo (at) hansung.ac.kr
     - <http://www.hindawi.com/journals/ijdsn/si/osdsn/>
 
 ## Ohters
-* I am a blood donor. :-)  
+* Blood donor  
     - [![Logo](http://www.bloodinfo.net/images/include/ci.png)](http://www.bloodinfo.net/main.do)
+* 희망풍차
+    - [![Logo](https://www.redcross.or.kr/voluntary/images/cont_support_logo.jpg)](https://www.redcross.or.kr/voluntary/windmill_introduce.jsp)
+* Unicef
+    - [![Logo](http://www.unicef.or.kr/images/team/logo_bl.png)](https://www.unicef.org/)
 
 
 # Lecture
