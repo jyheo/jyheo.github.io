@@ -15,15 +15,16 @@ Junyoung Heo received the B.E. and Ph.D. degrees in computer engineering from Se
 
 
 ## Research Interests
-* Machine learning/Deep learning
+* Machine learning/Deep learning/Neuromorphic Computing
 * Mobile Systems(Android)
 * System Software(Operating Systems, Embedded Systems)
 * Security and Dependable Computing
 * Wireless Sensor Networks - Energy Aware Routing, Security, Under-water
 
 ## Other Interests
-* [Tennis](http://en.wikipedia.org/wiki/Tennis)
+* [Table Tennis](https://en.wikipedia.org/wiki/Table_tennis)
 * [Alpine ski](http://en.wikipedia.org/wiki/Alpine_ski)
+* [Tennis](http://en.wikipedia.org/wiki/Tennis)
 
 ## Contact
 E-mail : jyheo (at) hansung.ac.kr
@@ -36,7 +37,7 @@ E-mail : jyheo (at) hansung.ac.kr
 ## Research Papers
 * [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=Y8F-9OwAAAAJ&view_op=list_works&sortby=pubdate)
 * [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/h/Heo:Junyoung.html)
-
+* [ORCID](https://orcid.org/0000-0001-6407-6678)
 
 # Services
 
@@ -69,10 +70,6 @@ E-mail : jyheo (at) hansung.ac.kr
 ## Ohters
 * Blood donor  
     - [![Logo](http://www.bloodinfo.net/images/include/ci.png)](http://www.bloodinfo.net/main.do)
-* 희망풍차
-    - [![Logo](https://www.redcross.or.kr/voluntary/images/cont_support_logo.jpg)](https://www.redcross.or.kr/voluntary/windmill_introduce.jsp)
-* Unicef
-    - [![Logo](http://www.unicef.or.kr/images/team/logo_bl.png)](https://www.unicef.org/)
 
 
 # Lecture
