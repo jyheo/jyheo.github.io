@@ -41,17 +41,18 @@ E-mail : jyheo (at) hansung.ac.kr
 
 # Services
 
-## Academic related
-### Embedded Software Contest Judge
+## Academic
+### Embedded Software Contest
 * Serve as a judge at The World Embedded Software Contest from 2010, 
     - <http://www.eswcontest.com>
     - ![Logo](http://www.eswcontest.com/images/common/logo.png)
     
-### OSS World Challenge Judge
+### OSS World Challenge
 * Serve as a judge at OSS(Open Source Software) World Challenge from 2016,
     - <http://project.oss.kr>
 
-### Conference/Track Chair
+### Conference
+* Chair, Korea ACM SIGAPP Chapter, <https://sigappkr.acm.org>
 * Publicity Chair, 2018 ACM Symposium on Applied Computing (SAC 2018), <https://www.sigapp.org/sac/sac2018/index.html>
 * Publicity Chair, 2018 ACM Research in Adaptive and Convergent Systems (RACS 2018), <https://sites.google.com/site/acmracs2018/>
 * Publication Chair, 2013 Workshop on Dependable Computing System, <https://sites.google.com/site/2013wdcs/>
@@ -59,7 +60,7 @@ E-mail : jyheo (at) hansung.ac.kr
 * Track Co-Chair (Operating Systems), the 26th ACM Symposium on Applied Computing, Taichung, Taiwan, March 2011, <http://www.acm.org/conferences/sac/sac2011/>
 * Workshop Co-Chair, The 5th International Workshop on Convergence Technologies and Information Convergence (CTIC2010), Atlanta, USA, October 2010, <http://sites.google.com/site/iwctic/>
 
-### Journal Editor
+### Journal
 * Guest Editor, On Context-Aware Security in Cloud Computing and Internet of Things, Wireless Communications and Mobile Computing, 2018
     - <https://www.hindawi.com/journals/wcmc/si/326864/cfp/>
 * Editor, International Journal of Distributed Sensor Networks, 2013
