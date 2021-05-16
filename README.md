@@ -7,7 +7,6 @@
 
 
 ## Short Bio.
-
 Junyoung Heo received the B.E. and Ph.D. degrees in computer engineering from Seoul National University, Seoul, Korea, in 1998 and 2009 respectively. Since 2009, he has been with the Department of Computer Engineering, Hansung University, Seoul, where he is currently an Associate Professor. 
 
 ## Github Repository
