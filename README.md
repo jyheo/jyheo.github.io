@@ -42,15 +42,6 @@ E-mail : jyheo (at) hansung.ac.kr
 # Services
 
 ## Academic
-### Embedded Software Contest
-* Serve as a judge at The World Embedded Software Contest from 2010, 
-    - <http://www.eswcontest.com>
-    - ![Logo](http://www.eswcontest.com/images/common/logo.png)
-    
-### OSS World Challenge
-* Serve as a judge at OSS(Open Source Software) World Challenge from 2016,
-    - <http://project.oss.kr>
-
 ### Conference
 * Chair, Korea ACM SIGAPP Chapter, <https://sigappkr.acm.org>
 * Publicity Chair, 2018 ACM Symposium on Applied Computing (SAC 2018), <https://www.sigapp.org/sac/sac2018/index.html>
